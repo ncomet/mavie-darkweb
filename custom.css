@@ -1,0 +1,12 @@
+.reveal h1 {
+    color: white;
+}
+
+.reveal pre code {
+    max-height: 580px;
+}
+
+.reveal section div img {
+    border: 0;
+    box-shadow: none;
+}
