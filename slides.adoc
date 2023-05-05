@@ -11,7 +11,7 @@
 :title-slide-transition: zoom
 :title-slide-background-image: watchdog.jpg
 // nsl.jpg, waxconf.png
-:conf: waxconf2.png
+:conf: nsl.jpg
 
 image:{conf}[]
 
