@@ -1,0 +1,19 @@
+= Ma vie en vente flash sur le Dark Web ?!
+
+== Tools
+
+Based on https://github.com/asciidoctor/asciidoctor-reveal.js
+
+Pre-requisites:: `npm`
+
+.Generates HTML slides, opens browser
+[source, bash]
+----
+./generate.sh
+----
+
+.Generates HTML slides, opens browser, hot reloads slides
+[source, bash]
+----
+./watch.sh
+----
