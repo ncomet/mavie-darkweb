@@ -1,5 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/anonymous-clippings');
+
 .reveal h1 {
     color: white;
+    font-family: 'Anonymous Clippings', sans-serif;
+    font-size: 1.3em;
 }
 
 .reveal pre code {

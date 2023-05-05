@@ -1,4 +1,4 @@
-= Test me up, before you Go-Go!
+= Ma vie en vente flash sur le Dark Web ?!
 :imagesdir: images
 :source-highlighter: highlightjs
 :revealjs_theme: white
@@ -9,12 +9,9 @@
 :customcss: custom.css
 :icons: font
 :title-slide-transition: zoom
-:title-slide-transition-speed: fast
-:title-slide-background-video: wham.mp4
-:title-slide-background-video-muted: true
-:title-slide-background-video-loop: true
-// nsl.jpg, cloudnord.jpg, bdxio.jpg, worldline.png
-:conf: waxconf.png
+:title-slide-background-image: watchdog.jpg
+// nsl.jpg, waxconf.png
+:conf: waxconf2.png
 
 image:{conf}[]
 
@@ -27,6 +24,12 @@ icon:github[] https://github.com/ncomet +
 
 image:ubisoft.jpg[] +
 ☁️🎮  *Streaming Team*  ☁️🎮
+
+== Produits
+
+Remote Events icon:pen-nib[] 📰
+
+Remote Play 🎮 📲
 
 [%notitle]
 == Share Play
