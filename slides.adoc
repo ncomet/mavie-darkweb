@@ -35,3 +35,29 @@ Remote Play 🎮 📲
 == Share Play
 
 image::shareplay.jpg[width=85%]
+
+== L'histoire
+
+Veille d'un weekend de pont, 10/11/22...
+
+19h17...
+
+== Les personnages
+
+*Piedruk*, Señor Clown Engineer @Ubisoft BDX
+
+image:piedruk.png[width=15%]
+
+*ITSec*, Chef sécurité @Ubisoft MTL
+
+image:itsec-happy.png[width=15%]
+
+== Les (vrais) personnages
+
+*Nicolas*, Senior Cloud Engineer @Ubisoft BDX
+
+image:profile-pic.png[width=15%]
+
+*ITSec*, Chef sécurité @Ubisoft MTL
+
+image:itsec.png[width=15%]
