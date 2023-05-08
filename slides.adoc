@@ -182,7 +182,6 @@ image::teams15.jpeg[]
 
 == Que faites-vous ?
 
-[state=screens]
 == Ce que j'ai fait
 
 image::ubisoft-logo.png[]
