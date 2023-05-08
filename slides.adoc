@@ -25,16 +25,20 @@ icon:github[] https://github.com/ncomet +
 image:ubisoft.jpg[] +
 ☁️🎮  *Streaming Team*  ☁️🎮
 
-== Produits
+== Remote Events
 
-Remote Events icon:pen-nib[] 📰
+icon:pen-nib[] 📰
 
-Remote Play 🎮 📲
+image::remote-events.png[]
 
 [%notitle]
 == Share Play
 
 image::shareplay.jpg[width=85%]
+
+== Remote Play
+
+image:remote-play.jpg[width=32%]
 
 == L'histoire
 
@@ -42,6 +46,7 @@ Veille d'un weekend de pont, 10/11/22...
 
 19h17...
 
+[transition=none]
 == Les personnages
 
 *Piedruk*, Señor Clown Engineer @Ubisoft BDX
@@ -52,6 +57,7 @@ image:piedruk.png[width=15%]
 
 image:itsec-happy.png[width=15%]
 
+[transition=none]
 == Les (vrais) personnages
 
 *Nicolas*, Senior Cloud Engineer @Ubisoft BDX
