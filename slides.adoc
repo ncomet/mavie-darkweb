@@ -207,3 +207,9 @@ image::nvidia.png[width=50%]
 CTI Team image:ubisoft-logo.png[width=70%]
 
 == Les gestes qui sauvent
+
+* Mots de passe
+** uniques et forts
+** _Phrases_ de passe fortes
+* MFA _Multi-Factor Authentication_
+* Gestionnaires de mots de passe
