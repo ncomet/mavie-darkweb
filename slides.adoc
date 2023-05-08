@@ -185,6 +185,14 @@ image::teams15.jpeg[]
 [state=screens]
 == Ce que j'ai fait
 
+image::ubisoft-logo.png[]
+
+1. Rotation AD
+2. Rotation Service Account
+
+[state=screens]
+== Ce que j'ai fait
+
 image::teams16.jpeg[]
 
 [.columns.is-vcentered]
@@ -198,3 +206,5 @@ image::nvidia.png[width=50%]
 
 [.column]
 CTI Team image:ubisoft-logo.png[width=70%]
+
+== Les gestes qui sauvent
