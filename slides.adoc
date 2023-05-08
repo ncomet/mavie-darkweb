@@ -27,7 +27,7 @@ image:ubisoft.jpg[] +
 
 == Remote Events
 
-icon:pen-nib[] 📰
+🖥️ -> icon:pen-nib[] 📰
 
 image::remote-events.png[]
 
@@ -38,7 +38,9 @@ image::shareplay.jpg[width=85%]
 
 == Remote Play
 
-image:remote-play.jpg[width=32%]
+🖥️ -> 🎮📱
+
+image:remote-play.jpg[width=30%]
 
 == L'histoire
 
@@ -46,24 +48,153 @@ Veille d'un weekend de pont, 10/11/22...
 
 19h17...
 
-[transition=none]
+[.columns, transition=none]
 == Les personnages
 
-*Piedruk*, Señor Clown Engineer @Ubisoft BDX
+[.column]
+--
+*Piedrük*
 
-image:piedruk.png[width=15%]
+image:piedruk.png[width=40%]
 
-*ITSec*, Chef sécurité @Ubisoft MTL
+Señor Clown Engineer @Ubisoft BDX
+--
 
-image:itsec-happy.png[width=15%]
+[.column]
+--
+*ITSec*
 
-[transition=none]
+image:itsec-happy.png[width=40%]
+
+Chef sécurité @Ubisoft MTL
+--
+
+[.columns, transition=none]
 == Les (vrais) personnages
 
-*Nicolas*, Senior Cloud Engineer @Ubisoft BDX
+[.column]
+--
+*Nicolas*
 
-image:profile-pic.png[width=15%]
+image:profile-pic.png[width=40%]
 
-*ITSec*, Chef sécurité @Ubisoft MTL
+Senior Cloud Engineer @Ubisoft BDX
+--
 
-image:itsec.png[width=15%]
+[.column]
+--
+*ITSec*
+
+image:itsec.png[width=40%]
+
+Chef sécurité @Ubisoft MTL
+--
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams1.jpeg[]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams2.jpeg[]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams3.jpeg[width=70%]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams4.jpeg[width=70%]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams5.jpeg[]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams6.jpeg[]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams7.jpeg[]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams8.jpeg[]
+
+[%notitle, state=screens]
+== Screens
+
+image::hacked.jpg[width=75%]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams9.jpeg[]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams10.jpeg[]
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams11.jpeg[]
+
+
+[%notitle, transition=fade]
+== Screens
+
+image::teams13.png[]
+
+== Don't panic
+
+image::this-is-fine.jpeg[]
+
+== D0n'7 p4n1c
+
+image::this-si-enif.jpeg[]
+
+== Panic...
+
+image::this-is-not-fine.png[]
+
+== En chiffres
+
+* ~450 noms de domaines
+* Les mots de passes associés, _en clair_
+** 2 pros (AD beaucoup répétés)
+** le reste perso
+
+[%notitle, state=screens, transition=fade]
+== Screens
+
+image::teams15.jpeg[]
+
+== Que faites-vous ?
+
+[state=screens]
+== Ce que j'ai fait
+
+image::teams16.jpeg[]
+
+[.columns.is-vcentered]
+== Comment ?
+
+[.column]
+image::nvidia.png[width=50%]
+
+[.column]
+--------------->
+
+[.column]
+CTI Team image:ubisoft-logo.png[width=70%]
