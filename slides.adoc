@@ -4,7 +4,6 @@
 :revealjs_theme: white
 :revealjs_history: true
 :revealjs_slideNumber: true
-:revealjs_showSlideNumber: speaker
 :revealjs_defaultTiming: 37
 :customcss: custom.css
 :icons: font
