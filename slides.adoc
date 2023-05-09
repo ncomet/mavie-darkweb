@@ -213,3 +213,23 @@ CTI Team image:ubisoft-logo.png[width=70%]
 ** _Phrases_ de passe fortes
 * MFA _Multi-Factor Authentication_
 * Gestionnaires de mots de passe
+
+== Mot de passe fort ?
+
+Hachage (_hashing_, _hash_)
+
+[.columns.is-vcentered]
+== Hachage
+
+[.column]
+--
+Fonction `f`
+
+* Déterministe
+* `|x|` variable, -> taille `|f(x)|` fixe & connue
+* Ne peut pas être inversée `f(x)` connue, `x`?
+* "facile" à calculer
+--
+
+[.column]
+image::hashing.png[width=75%]
