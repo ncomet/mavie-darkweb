@@ -226,10 +226,64 @@ Hachage (_hashing_, _hash_)
 Fonction `f`
 
 * Déterministe
-* `|x|` variable, -> taille `|f(x)|` fixe & connue
-* Ne peut pas être inversée `f(x)` connue, `x`?
+* `|x|` variable -> `|f(x)|` fixe & connue
+* Ne peut pas être inversée `f(x)` -> `x` ?
 * "facile" à calculer
 --
 
 [.column]
 image::hashing.png[width=75%]
+
+== Autres propriétés
+
+Résistance
+
+préimage: `h connu, ∃m / f(m)=h` 
+
+2nde préimage: `m connu, ∃m' / f(m)=f(m')` 
+
+m-collisions: `∃m1,m2,m3 / f(m1)=f(m2)=f(m3)`
+
+[%notitle]
+== Hachage
+
+image::hashing-illustration.png[width=50%]
+
+== Inscription
+
+image::hashing-diagram.svg[]
+
+== Login
+
+image::hashing-login.svg[]
+
+== Confiance
+
+|===
+|Cassés |Sûrs 
+
+|MD5
+|SHA-256
+
+|SHA-1
+|SHA-512
+
+|
+|SHA-2, SHA-3, BLAKE2...
+|===
+
+[%notitle.columns.is-vcentered]
+== Confiance
+
+[.column]
+--
+*40 milliards* MD5 hashes/sec
+--
+
+[.column]
+--
+image::titanx.png[width=80%]
+
+Crédit: https://youtu.be/7U-RbOKanYs[Computerphile]
+--
+
