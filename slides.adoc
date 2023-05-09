@@ -253,9 +253,15 @@ image::hashing-illustration.png[width=50%]
 
 image::hashing-diagram.svg[]
 
+[transition=none]
 == Login
 
 image::hashing-login.svg[]
+
+[transition=none]
+== Confiance
+
+image::hashing-trust.svg[]
 
 == Confiance
 
@@ -286,4 +292,16 @@ image::titanx.png[width=80%]
 
 Crédit: https://youtu.be/7U-RbOKanYs[Computerphile]
 --
+
+[%notitle]
+== Confiance
+
+image::hashcat.png[background, size=cover]
+
+[%notitle]
+== Confiance
+
+image::hashcat2.gif[background, size=cover]
+
+== OWASP
 
