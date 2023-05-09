@@ -275,7 +275,7 @@ image::hashing-trust.svg[]
 |SHA-512
 
 |
-|SHA-2, SHA-3, BLAKE2...
+|SHA-2, SHA-3, BLAKE2, Keccak-256...
 |===
 
 [%notitle.columns.is-vcentered]
@@ -283,6 +283,8 @@ image::hashing-trust.svg[]
 
 [.column]
 --
+6 ans
+
 *40 milliards* MD5 hashes/sec
 --
 
@@ -303,5 +305,30 @@ image::hashcat.png[background, size=cover]
 
 image::hashcat2.gif[background, size=cover]
 
-== OWASP
+[%notitle]
+== Statistiques
 
+image::passwords.png[]
+
+== Proactif
+
+* Password must meet at least 3 out of the following 4 complexity rules
+** at least 1 up-lowercase character (A-Za-z)
+** at least 1 digit (0-9)
+** at least 1 special character — _spaces count_!
+* *10 - 128 characters*
+* not more than 2 identical chars in a row
+
+source : https://owasp.deteact.com/cheat/cheatsheets/Authentication_Cheat_Sheet.html#password-complexity[OWASP]
+
+== Vigilant
+
+Smells
+
+* Pas plus de `x` caractères
+* Caractères interdits
+
+[%notitle]
+== XKCD
+
+image::password_strength.png[background, size=contain]
