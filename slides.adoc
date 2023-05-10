@@ -224,7 +224,7 @@ Hachage (_hashing_, _hash_)
 --
 Fonction `f`
 
-* Déterministe
+* Déterministe (surjective)
 * `|x|` variable -> `|f(x)|` fixe & connue
 * Ne peut pas être inversée `f(x)` -> `x` ?
 * "facile" à calculer
@@ -232,16 +232,6 @@ Fonction `f`
 
 [.column]
 image::hashing.png[width=75%]
-
-== Autres propriétés
-
-Résistance
-
-préimage: `h connu, ∃m / f(m)=h` 
-
-2nde préimage: `m connu, ∃m' / f(m)=f(m')` 
-
-m-collisions: `∃m1,m2,m3 / f(m1)=f(m2)=f(m3)`
 
 [%notitle]
 == Hachage
@@ -261,6 +251,14 @@ image::hashing-login.svg[]
 == Confiance
 
 image::hashing-trust.svg[]
+
+== Résistance
+
+préimage: `h connu, ∃m / f(m)=h` 
+
+2nde préimage: `m connu, ∃m' / f(m)=f(m')` 
+
+m-collisions: `∃m1,m2,m3 / f(m1)=f(m2)=f(m3)`
 
 == Confiance
 
@@ -309,14 +307,14 @@ image::hashcat2.gif[background, size=cover]
 
 image::passwords.png[]
 
-== Proactif
+== Complexité
 
-* Password must meet at least 3 out of the following 4 complexity rules
-** at least 1 up-lowercase character (A-Za-z)
-** at least 1 digit (0-9)
-** at least 1 special character — _spaces count_!
-* *10 - 128 characters*
-* not more than 2 identical chars in a row
+* Au moins 3 de ces 4 règles de complexité :
+** au moins 1 (A-Za-z)
+** au moins 1 chiffre (0-9)
+** au moins 1 caractère spécial — _espaces_ !
+* *10 - 128 caractères*
+* pas plus de 2 caractères identiques d'affilée
 
 source : https://owasp.deteact.com/cheat/cheatsheets/Authentication_Cheat_Sheet.html#password-complexity[OWASP]
 
@@ -327,7 +325,70 @@ Smells
 * Pas plus de `x` caractères
 * Caractères interdits
 
+image::que-cat.gif[width=40%]
+
+== Attention
+
+complexité ≠ entropie
+
 [%notitle]
 == XKCD
 
 image::password_strength.png[background, size=contain]
+
+== Surface d'attaque
+
+WARNING: Ne jamais réutiliser un mot de passe, ou une variation d'un mot de passe
+
+== Gestionnaire de mots de passe
+
+== Comment choisir ?
+
+* Zéro knowledge (déchiffrement local)
+* Algo chiffrement robuste (`PBKDF2` 600 000x)
+* Passphrase maîtresse (à mémoriser !)
+* Générateur mdps forts
+* (Plugins navigateurs)
+* (Auto maj mdps)
+* *MFA*
+
+== MFA
+
+MultiFactor Authentication (2FA)
+
+[%step]
+* Services importants (e-mails, travail, banque)
+[%step]
+* Apps smartphone/clés physiques (pas sms!)
+[%step]
+* Tokens de récupération
+
+[%step]
+--
+WARNING: N’oubliez pas de re-configurer l’app sur le nouveau téléphone avant de reset.
+--
+
+== Social Engineering
+
+image::human-breach.png[]
+
+== "Security Fatigue"
+
+NOTE: Trop de rituels de sécurité nuisent à la sécurité
+
+https://www.uber.com/newsroom/security-update[Uber MFA bombing 19/09/2022]
+
+Trop de règles de mot de passe, changements trop fréquents imposés ->
+
+_65% des utilisateurs réutilisent le même mot de passe_ (https://www.enzoic.com/blog/8-stats-on-password-reuse/[Google survey])
+
+== "Security Fatigue"
+
+NOTE: Entreprises, soyez raisonnables
+
+* SSO
+* MFA session longues
+* Gestionnaires de mots de passes
+
+*Éducation*
+
