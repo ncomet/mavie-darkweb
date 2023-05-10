@@ -466,16 +466,15 @@ ul.byline li + li {
 <section id="_les_gestes_qui_sauvent"><h2>Les gestes qui sauvent</h2><div class="slide-content"><div class="ulist"><ul><li><p>Mots de passe</p><div class="ulist"><ul><li><p>uniques et forts</p></li><li><p><em>Phrases</em> de passe fortes</p></li></ul></div></li><li><p>MFA <em>Multi-Factor Authentication</em></p></li><li><p>Gestionnaires de mots de passe</p></li></ul></div></div></section>
 <section id="_mot_de_passe_fort"><h2>Mot de passe fort ?</h2><div class="slide-content"><div class="paragraph"><p>Hachage (<em>hashing</em>, <em>hash</em>)</p></div></div></section>
 <section id="_hachage" class="columns is-vcentered"><h2>Hachage</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="paragraph"><p>Fonction <code>f</code></p></div>
-<div class="ulist"><ul><li><p>Déterministe</p></li><li><p><code>|x|</code> variable &#8594; <code>|f(x)|</code> fixe &amp; connue</p></li><li><p>Ne peut pas être inversée <code>f(x)</code> &#8594; <code>x</code> ?</p></li><li><p>"facile" à calculer</p></li></ul></div></div></div>
+<div class="ulist"><ul><li><p>Déterministe (surjective)</p></li><li><p><code>|x|</code> variable &#8594; <code>|f(x)|</code> fixe &amp; connue</p></li><li><p>Ne peut pas être inversée <code>f(x)</code> &#8594; <code>x</code> ?</p></li><li><p>"facile" à calculer</p></li></ul></div></div></div>
 <div class="imageblock column"><img src="images/hashing.png" alt="hashing" width="75%"></div></div></section>
-<section id="_autres_propriétés"><h2>Autres propriétés</h2><div class="slide-content"><div class="paragraph"><p>Résistance</p></div>
-<div class="paragraph"><p>préimage: <code>h connu, ∃m / f(m)=h</code></p></div>
-<div class="paragraph"><p>2nde préimage: <code>m connu, ∃m' / f(m)=f(m')</code></p></div>
-<div class="paragraph"><p>m-collisions: <code>∃m1,m2,m3 / f(m1)=f(m2)=f(m3)</code></p></div></div></section>
 <section id="_hachage_2"><div class="slide-content"><div class="imageblock"><img src="images/hashing-illustration.png" alt="hashing illustration" width="50%"></div></div></section>
 <section id="_inscription"><h2>Inscription</h2><div class="slide-content"><div class="imageblock"><img src="images/hashing-diagram.svg" alt="hashing diagram"></div></div></section>
 <section id="_login" data-transition="none"><h2>Login</h2><div class="slide-content"><div class="imageblock"><img src="images/hashing-login.svg" alt="hashing login"></div></div></section>
 <section id="_confiance" data-transition="none"><h2>Confiance</h2><div class="slide-content"><div class="imageblock"><img src="images/hashing-trust.svg" alt="hashing trust"></div></div></section>
+<section id="_résistance"><h2>Résistance</h2><div class="slide-content"><div class="paragraph"><p>préimage: <code>h connu, ∃m / f(m)=h</code></p></div>
+<div class="paragraph"><p>2nde préimage: <code>m connu, ∃m' / f(m)=f(m')</code></p></div>
+<div class="paragraph"><p>m-collisions: <code>∃m1,m2,m3 / f(m1)=f(m2)=f(m3)</code></p></div></div></section>
 <section id="_confiance_2"><h2>Confiance</h2><div class="slide-content"><table class="tableblock frame-all grid-all" style="width:100%"><colgroup><col style="width:50%"><col style="width:50%"></colgroup><thead><tr><th class="tableblock halign-left valign-top">Cassés</th><th class="tableblock halign-left valign-top">Sûrs</th></tr><tbody><tr><td class="tableblock halign-left valign-top"><p class="tableblock">MD5</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-256</p></td></tr><tr><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-1</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-512</p></td></tr><tr><td class="tableblock halign-left valign-top"></td><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-2, SHA-3, BLAKE2, Keccak-256&#8230;&#8203;</p></td></tr></table></div></section>
 <section id="_confiance_3" class="columns is-vcentered"><div class="slide-content"><div class="openblock column"><div class="content"><div class="paragraph"><p>6 ans</p></div>
 <div class="paragraph"><p><strong>40 milliards</strong> MD5 hashes/sec</p></div></div></div>
@@ -484,11 +483,27 @@ ul.byline li + li {
 <section id="_confiance_4" data-background-image="images/hashcat.png" data-background-size="cover"></section>
 <section id="_confiance_5" data-background-image="images/hashcat2.gif" data-background-size="cover"></section>
 <section id="_statistiques"><div class="slide-content"><div class="imageblock"><img src="images/passwords.png" alt="passwords"></div></div></section>
-<section id="_proactif"><h2>Proactif</h2><div class="slide-content"><div class="ulist"><ul><li><p>Password must meet at least 3 out of the following 4 complexity rules</p><div class="ulist"><ul><li><p>at least 1 up-lowercase character (A-Za-z)</p></li><li><p>at least 1 digit (0-9)</p></li><li><p>at least 1 special character — <em>spaces count</em>!</p></li></ul></div></li><li><p><strong>10 - 128 characters</strong></p></li><li><p>not more than 2 identical chars in a row</p></li></ul></div>
+<section id="_complexité"><h2>Complexité</h2><div class="slide-content"><div class="ulist"><ul><li><p>Au moins 3 de ces 4 règles de complexité :</p><div class="ulist"><ul><li><p>au moins 1 (A-Za-z)</p></li><li><p>au moins 1 chiffre (0-9)</p></li><li><p>au moins 1 caractère spécial — <em>espaces</em> !</p></li></ul></div></li><li><p><strong>10 - 128 caractères</strong></p></li><li><p>pas plus de 2 caractères identiques d&#8217;affilée</p></li></ul></div>
 <div class="paragraph"><p>source : <a href="https://owasp.deteact.com/cheat/cheatsheets/Authentication_Cheat_Sheet.html#password-complexity">OWASP</a></p></div></div></section>
 <section id="_vigilant"><h2>Vigilant</h2><div class="slide-content"><div class="paragraph"><p>Smells</p></div>
-<div class="ulist"><ul><li><p>Pas plus de <code>x</code> caractères</p></li><li><p>Caractères interdits</p></li></ul></div></div></section>
-<section id="_xkcd" data-background-image="images/password_strength.png" data-background-size="contain"></section></div></div><script src="node_modules/reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<div class="ulist"><ul><li><p>Pas plus de <code>x</code> caractères</p></li><li><p>Caractères interdits</p></li></ul></div>
+<div class="imageblock"><img src="images/que-cat.gif" alt="que cat" width="40%"></div></div></section>
+<section id="_attention"><h2>Attention</h2><div class="slide-content"><div class="paragraph"><p>complexité ≠ entropie</p></div></div></section>
+<section id="_xkcd" data-background-image="images/password_strength.png" data-background-size="contain"></section>
+<section id="_surface_dattaque"><h2>Surface d&#8217;attaque</h2><div class="slide-content"><div class="admonitionblock warning"><table><tr><td class="icon"><i class="fa fa-warning" title="Warning"></i></td><td class="content">Ne jamais réutiliser un mot de passe, ou une variation d&#8217;un mot de passe</td></tr></table></div></div></section>
+<section id="_gestionnaire_de_mots_de_passe"><h2>Gestionnaire de mots de passe</h2></section>
+<section id="_comment_choisir"><h2>Comment choisir ?</h2><div class="slide-content"><div class="ulist"><ul><li><p>Zéro knowledge (déchiffrement local)</p></li><li><p>Algo chiffrement robuste (<code>PBKDF2</code> 600 000x)</p></li><li><p>Passphrase maîtresse (à mémoriser !)</p></li><li><p>Générateur mdps forts</p></li><li><p>(Plugins navigateurs)</p></li><li><p>(Auto maj mdps)</p></li><li><p><strong>MFA</strong></p></li></ul></div></div></section>
+<section id="_mfa"><h2>MFA</h2><div class="slide-content"><div class="paragraph"><p>MultiFactor Authentication (2FA)</p></div>
+<div class="ulist"><ul><li class="fragment"><p>Services importants (e-mails, travail, banque)</p></li><li class="fragment"><p>Apps smartphone/clés physiques (pas sms!)</p></li><li class="fragment"><p>Tokens de récupération</p></li></ul></div>
+<div class="openblock fragment"><div class="content"><div class="admonitionblock warning"><table><tr><td class="icon"><i class="fa fa-warning" title="Warning"></i></td><td class="content">N’oubliez pas de re-configurer l’app sur le nouveau téléphone avant de reset.</td></tr></table></div></div></div></div></section>
+<section id="_social_engineering"><h2>Social Engineering</h2><div class="slide-content"><div class="imageblock"><img src="images/human-breach.png" alt="human breach"></div></div></section>
+<section id="_security_fatigue"><h2>"Security Fatigue"</h2><div class="slide-content"><div class="admonitionblock note"><table><tr><td class="icon"><i class="fa fa-info-circle" title="Note"></i></td><td class="content">Trop de rituels de sécurité nuisent à la sécurité</td></tr></table></div>
+<div class="paragraph"><p><a href="https://www.uber.com/newsroom/security-update">Uber MFA bombing 19/09/2022</a></p></div>
+<div class="paragraph"><p>Trop de règles de mot de passe, changements trop fréquents imposés &#8594;</p></div>
+<div class="paragraph"><p><em>65% des utilisateurs réutilisent le même mot de passe</em> (<a href="https://www.enzoic.com/blog/8-stats-on-password-reuse/">Google survey</a>)</p></div></div></section>
+<section id="_security_fatigue_2"><h2>"Security Fatigue"</h2><div class="slide-content"><div class="admonitionblock note"><table><tr><td class="icon"><i class="fa fa-info-circle" title="Note"></i></td><td class="content">Entreprises, soyez raisonnables</td></tr></table></div>
+<div class="ulist"><ul><li><p>SSO</p></li><li><p>MFA session longues</p></li><li><p>Gestionnaires de mots de passes</p></li></ul></div>
+<div class="paragraph"><p><strong>Éducation</strong></p></div></div></section></div></div><script src="node_modules/reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;
