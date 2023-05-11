@@ -17,7 +17,7 @@ image:{conf}[]
 == Qui je suis ?
 
 icon:twitter[] @NicolasComet +
-icon:github[] https://github.com/ncomet +
+https://github.com/ncomet[icon:github[].com/ncomet] +
 
 ---
 
@@ -56,16 +56,16 @@ Veille d'un weekend de pont, 10/11/22...
 
 image:piedruk.png[width=40%]
 
-Señor Clown Engineer @Ubisoft BDX
+Señor Clown Engineer @World Company
 --
 
 [.column]
 --
-*ITSec*
+*BigBro1984*
 
 image:itsec-happy.png[width=40%]
 
-Chef sécurité @Ubisoft MTL
+Chef sécurité @World Company
 --
 
 [.columns, transition=none]
