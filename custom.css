@@ -8,6 +8,10 @@
     font-size: 1.3em;
 }
 
+.reveal h2 {
+    text-transform: none;
+}
+
 .reveal pre code {
     max-height: 580px;
 }

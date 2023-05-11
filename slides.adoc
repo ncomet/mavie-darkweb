@@ -327,6 +327,12 @@ Smells
 
 image::que-cat.gif[width=40%]
 
+== Meh
+
+https://dumbpasswordrules.com/
+
+image::dumbpasswordrules.png[width=100%]
+
 == Attention
 
 complexité ≠ entropie
@@ -342,8 +348,6 @@ WARNING: Ne jamais réutiliser un mot de passe, ou une variation d'un mot de pas
 
 == Gestionnaire de mots de passe
 
-== Comment choisir ?
-
 * Zéro knowledge (déchiffrement local)
 * Algo chiffrement robuste (`PBKDF2` 600 000x)
 * Passphrase maîtresse (à mémoriser !)
@@ -354,7 +358,7 @@ WARNING: Ne jamais réutiliser un mot de passe, ou une variation d'un mot de pas
 
 == MFA
 
-MultiFactor Authentication (2FA)
+MultiFactor Authentication (2FA) - OTP (One Time Password)
 
 [%step]
 * Services importants (e-mails, travail, banque)
@@ -365,24 +369,24 @@ MultiFactor Authentication (2FA)
 
 [%step]
 --
-WARNING: N’oubliez pas de re-configurer l’app sur le nouveau téléphone avant de reset.
+WARNING: N'oubliez pas de re-configurer l'app sur le nouveau téléphone avant de reset.
 --
 
 == Social Engineering
 
 image::human-breach.png[]
 
-== "Security Fatigue"
+== Security Fatigue
 
 NOTE: Trop de rituels de sécurité nuisent à la sécurité
 
 https://www.uber.com/newsroom/security-update[Uber MFA bombing 19/09/2022]
 
-Trop de règles de mot de passe, changements trop fréquents imposés ->
+Trop de règles de mot de passe -> _65% des utilisateurs réutilisent le même mot de passe_ (https://www.enzoic.com/blog/8-stats-on-password-reuse/[Google survey])
 
-_65% des utilisateurs réutilisent le même mot de passe_ (https://www.enzoic.com/blog/8-stats-on-password-reuse/[Google survey])
+Changements trop fréquents imposés -> Dark patterns (incréments, mois-année...)
 
-== "Security Fatigue"
+== Security Fatigue
 
 NOTE: Entreprises, soyez raisonnables
 
@@ -392,3 +396,151 @@ NOTE: Entreprises, soyez raisonnables
 
 *Éducation*
 
+== Et si...
+
+On arrêtait les mots de passe ?
+
+== FIDO
+
+**F**ast **ID**entity **O**nline 
+
+41 membres, 81 sponsors, 9 org. gouv.
+
+Simpler Stronger Auth
+
+image::fidoboard.png[width=50%]
+
+== FIDO + Web = ?
+
+`WebAuthn` (Web Authentication API)
+
+* Spécification écrite par le W3C & FIDO
+
+Google, Mozilla, Microsoft, Yubico, et d'autres.
+
+== Clés publiques
+
+Chiffrement asymétrique _Diffie-Hellman Merkle_
+
+SSH, RSA, échange secrets TLS
+
+image::chiffrement-asymetrique.png[]
+
+== WebAuthn
+
+Intégration avec les authentifications fortes des appareils (Windows Hello, Apple Touch/FaceID)
+
+[.line-through]#Mot de passe#, une paire de clés privée-publique (identifiants) est créé pour un site web.
+
+* Clé privée -> 🔒(📱| 💻 )
+* Clé publique + credentialID -> ☁️ pour y être stockés
+
+Le serveur utilise la clé publique pour prouver l'identité de l'utilisateur.
+
+== WebAuthn
+
+La clé publique n'est pas secrète, car elle est inutile sans sa clé privée.
+
+Le fait que le serveur ne reçoive pas de secret a une implication forte : les bases de données *ne sont plus attractives pour les hackers*, car les clés publiques ne leur *servent à rien*.
+
+== Inscription
+
+image::webauthn-register.png[width=50%]
+
+== Login
+
+image::webauthn-login.png[width=45%]
+
+== Démo
+
+https://webauthn.io/
+
+== Origine du mal
+
+[source]
+----
+Date: 31/10/2022 9:42:9
+MachineID: eb14ba62-28e9-42ca-9f77-c32512fab1dd
+GUID: {d4a2f0c1-53b4-11ed-b9a6-806e6f6e6963} 
+HWID: 9ca12314c88b2768236643-eb14ba62-28e9-42ca-9f77-b9a6-806e6f6e6963 
+
+Path: C:\Program Files (x86)\Common Files\comp.exe 
+Work Dir: In memory 
+
+Computer Name: NICOFIXE
+
+Local Time: 31/10/2022 9:42:9 
+TimeZone: UTC1 
+[Hardware] 
+Processor: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz 
+CPU Count: 8 
+RAM: 16339 MB 
+VideoCard: NVIDIA GeForce RTX 3070 
+[Processes] 
+- System [4] 
+- Registry [124] 
+- smss.exe [460] 
+- csrss.exe [628] 
+- wininit.exe [720] 
+- csrss.exe [728] 
+- services.exe [792]
+
+[Software] 
+...
+Heaven Benchmark version 4.0 [4.0]
+...
+----
+
+== Délai
+
+31/10 -> 10/11
+
+11 jours
+
+== Analyses
+
+https://hybrid-analysis.com
+
+image::ha-malicious.png[]
+
+[%notitle]
+== Analyses
+
+image::ha3.png[]
+
+[%notitle]
+== Analyses
+
+image::ha4.png[]
+
+[%notitle]
+== Analyses
+
+image::ha-parent.png[]
+
+== Comment ?
+
+image::chrome.png[width=75%]
+
+== Comment ?
+
+https://borncity.com/win/2022/06/12/chrome-speichert-passwrter-im-speicher-im-klartext/[Chrome stores passwords in memory, in plain text]
+
+https://fractionalciso.com/browser-password-managers-flawed-security-by-design/[Browser password managers, flawed security, by design!]
+
+"
+_Even though Chrome, Firefox, and Edge browsers store passwords in encrypted databases, all three intentionally leave encryption keys completely unprotected in predictable locations._
+"
+
+== Merci
+
+image:profile-pic.png[width=20%] 😘 image:itsec-happy.png[width=20%] + image:nvidia.png[width=25%]
+
+[%notitle]
+== Questions ?
+
+image::ravingquestion.jpg[background, size=cover]
+
+image::qrcode.png[width=35%]
+
+https://ncomet.github.io/mavie-darkweb[ncomet.icon:github[].io/mavie-darkweb]
