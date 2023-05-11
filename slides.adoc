@@ -155,6 +155,13 @@ image::teams11.jpeg[]
 
 image::teams13.png[]
 
+== En chiffres
+
+* ~450 noms de domaines
+* Les mots de passes associés, _en clair_
+** 2 pros (AD beaucoup répétés)
+** le reste perso
+
 == Don't panic
 
 image::this-is-fine.jpeg[]
@@ -166,13 +173,6 @@ image::this-si-enif.jpeg[]
 == Panic...
 
 image::this-is-not-fine.png[]
-
-== En chiffres
-
-* ~450 noms de domaines
-* Les mots de passes associés, _en clair_
-** 2 pros (AD beaucoup répétés)
-** le reste perso
 
 [%notitle, state=screens, transition=fade]
 == Screens
@@ -192,6 +192,11 @@ image::ubisoft-logo.png[]
 == Ce que j'ai fait
 
 image::teams16.jpeg[]
+
+[%notitle]
+== Course
+
+image::sweat.gif[width=80%]
 
 [.columns.is-vcentered]
 == Comment ?
@@ -280,7 +285,7 @@ m-collisions: `∃m1,m2,m3 / f(m1)=f(m2)=f(m3)`
 
 [.column]
 --
-6 ans
+2017
 
 *40 milliards* MD5 hashes/sec
 --
