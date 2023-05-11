@@ -488,22 +488,90 @@ ul.byline li + li {
 <section id="_vigilant"><h2>Vigilant</h2><div class="slide-content"><div class="paragraph"><p>Smells</p></div>
 <div class="ulist"><ul><li><p>Pas plus de <code>x</code> caractères</p></li><li><p>Caractères interdits</p></li></ul></div>
 <div class="imageblock"><img src="images/que-cat.gif" alt="que cat" width="40%"></div></div></section>
+<section id="_meh"><h2>Meh</h2><div class="slide-content"><div class="paragraph"><p><a href="https://dumbpasswordrules.com/" class="bare">https://dumbpasswordrules.com/</a></p></div>
+<div class="imageblock"><img src="images/dumbpasswordrules.png" alt="dumbpasswordrules" width="100%"></div></div></section>
 <section id="_attention"><h2>Attention</h2><div class="slide-content"><div class="paragraph"><p>complexité ≠ entropie</p></div></div></section>
 <section id="_xkcd" data-background-image="images/password_strength.png" data-background-size="contain"></section>
 <section id="_surface_dattaque"><h2>Surface d&#8217;attaque</h2><div class="slide-content"><div class="admonitionblock warning"><table><tr><td class="icon"><i class="fa fa-warning" title="Warning"></i></td><td class="content">Ne jamais réutiliser un mot de passe, ou une variation d&#8217;un mot de passe</td></tr></table></div></div></section>
-<section id="_gestionnaire_de_mots_de_passe"><h2>Gestionnaire de mots de passe</h2></section>
-<section id="_comment_choisir"><h2>Comment choisir ?</h2><div class="slide-content"><div class="ulist"><ul><li><p>Zéro knowledge (déchiffrement local)</p></li><li><p>Algo chiffrement robuste (<code>PBKDF2</code> 600 000x)</p></li><li><p>Passphrase maîtresse (à mémoriser !)</p></li><li><p>Générateur mdps forts</p></li><li><p>(Plugins navigateurs)</p></li><li><p>(Auto maj mdps)</p></li><li><p><strong>MFA</strong></p></li></ul></div></div></section>
-<section id="_mfa"><h2>MFA</h2><div class="slide-content"><div class="paragraph"><p>MultiFactor Authentication (2FA)</p></div>
+<section id="_gestionnaire_de_mots_de_passe"><h2>Gestionnaire de mots de passe</h2><div class="slide-content"><div class="ulist"><ul><li><p>Zéro knowledge (déchiffrement local)</p></li><li><p>Algo chiffrement robuste (<code>PBKDF2</code> 600 000x)</p></li><li><p>Passphrase maîtresse (à mémoriser !)</p></li><li><p>Générateur mdps forts</p></li><li><p>(Plugins navigateurs)</p></li><li><p>(Auto maj mdps)</p></li><li><p><strong>MFA</strong></p></li></ul></div></div></section>
+<section id="_mfa"><h2>MFA</h2><div class="slide-content"><div class="paragraph"><p>MultiFactor Authentication (2FA) - OTP (One Time Password)</p></div>
 <div class="ulist"><ul><li class="fragment"><p>Services importants (e-mails, travail, banque)</p></li><li class="fragment"><p>Apps smartphone/clés physiques (pas sms!)</p></li><li class="fragment"><p>Tokens de récupération</p></li></ul></div>
-<div class="openblock fragment"><div class="content"><div class="admonitionblock warning"><table><tr><td class="icon"><i class="fa fa-warning" title="Warning"></i></td><td class="content">N’oubliez pas de re-configurer l’app sur le nouveau téléphone avant de reset.</td></tr></table></div></div></div></div></section>
+<div class="openblock fragment"><div class="content"><div class="admonitionblock warning"><table><tr><td class="icon"><i class="fa fa-warning" title="Warning"></i></td><td class="content">N&#8217;oubliez pas de re-configurer l&#8217;app sur le nouveau téléphone avant de reset.</td></tr></table></div></div></div></div></section>
 <section id="_social_engineering"><h2>Social Engineering</h2><div class="slide-content"><div class="imageblock"><img src="images/human-breach.png" alt="human breach"></div></div></section>
-<section id="_security_fatigue"><h2>"Security Fatigue"</h2><div class="slide-content"><div class="admonitionblock note"><table><tr><td class="icon"><i class="fa fa-info-circle" title="Note"></i></td><td class="content">Trop de rituels de sécurité nuisent à la sécurité</td></tr></table></div>
+<section id="_security_fatigue"><h2>Security Fatigue</h2><div class="slide-content"><div class="admonitionblock note"><table><tr><td class="icon"><i class="fa fa-info-circle" title="Note"></i></td><td class="content">Trop de rituels de sécurité nuisent à la sécurité</td></tr></table></div>
 <div class="paragraph"><p><a href="https://www.uber.com/newsroom/security-update">Uber MFA bombing 19/09/2022</a></p></div>
-<div class="paragraph"><p>Trop de règles de mot de passe, changements trop fréquents imposés &#8594;</p></div>
-<div class="paragraph"><p><em>65% des utilisateurs réutilisent le même mot de passe</em> (<a href="https://www.enzoic.com/blog/8-stats-on-password-reuse/">Google survey</a>)</p></div></div></section>
-<section id="_security_fatigue_2"><h2>"Security Fatigue"</h2><div class="slide-content"><div class="admonitionblock note"><table><tr><td class="icon"><i class="fa fa-info-circle" title="Note"></i></td><td class="content">Entreprises, soyez raisonnables</td></tr></table></div>
+<div class="paragraph"><p>Trop de règles de mot de passe &#8594; <em>65% des utilisateurs réutilisent le même mot de passe</em> (<a href="https://www.enzoic.com/blog/8-stats-on-password-reuse/">Google survey</a>)</p></div>
+<div class="paragraph"><p>Changements trop fréquents imposés &#8594; Dark patterns (incréments, mois-année&#8230;&#8203;)</p></div></div></section>
+<section id="_security_fatigue_2"><h2>Security Fatigue</h2><div class="slide-content"><div class="admonitionblock note"><table><tr><td class="icon"><i class="fa fa-info-circle" title="Note"></i></td><td class="content">Entreprises, soyez raisonnables</td></tr></table></div>
 <div class="ulist"><ul><li><p>SSO</p></li><li><p>MFA session longues</p></li><li><p>Gestionnaires de mots de passes</p></li></ul></div>
-<div class="paragraph"><p><strong>Éducation</strong></p></div></div></section></div></div><script src="node_modules/reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<div class="paragraph"><p><strong>Éducation</strong></p></div></div></section>
+<section id="_et_si"><h2>Et si&#8230;&#8203;</h2><div class="slide-content"><div class="paragraph"><p>On arrêtait les mots de passe ?</p></div></div></section>
+<section id="_fido"><h2>FIDO</h2><div class="slide-content"><div class="paragraph"><p><strong>F</strong>ast <strong>ID</strong>entity <strong>O</strong>nline</p></div>
+<div class="paragraph"><p>41 membres, 81 sponsors, 9 org. gouv.</p></div>
+<div class="paragraph"><p>Simpler Stronger Auth</p></div>
+<div class="imageblock"><img src="images/fidoboard.png" alt="fidoboard" width="50%"></div></div></section>
+<section id="_fido_web"><h2>FIDO + Web = ?</h2><div class="slide-content"><div class="paragraph"><p><code>WebAuthn</code> (Web Authentication API)</p></div>
+<div class="ulist"><ul><li><p>Spécification écrite par le W3C &amp; FIDO</p></li></ul></div>
+<div class="paragraph"><p>Google, Mozilla, Microsoft, Yubico, et d&#8217;autres.</p></div></div></section>
+<section id="_clés_publiques"><h2>Clés publiques</h2><div class="slide-content"><div class="paragraph"><p>Chiffrement asymétrique <em>Diffie-Hellman Merkle</em></p></div>
+<div class="paragraph"><p>SSH, RSA, échange secrets TLS</p></div>
+<div class="imageblock"><img src="images/chiffrement-asymetrique.png" alt="chiffrement asymetrique"></div></div></section>
+<section id="_webauthn"><h2>WebAuthn</h2><div class="slide-content"><div class="paragraph"><p>Intégration avec les authentifications fortes des appareils (Windows Hello, Apple Touch/FaceID)</p></div>
+<div class="paragraph"><p><span class="line-through">Mot de passe</span>, une paire de clés privée-publique (identifiants) est créé pour un site web.</p></div>
+<div class="ulist"><ul><li><p>Clé privée &#8594; 🔒(📱| 💻 )</p></li><li><p>Clé publique + credentialID &#8594; ☁️ pour y être stockés</p></li></ul></div>
+<div class="paragraph"><p>Le serveur utilise la clé publique pour prouver l&#8217;identité de l&#8217;utilisateur.</p></div></div></section>
+<section id="_webauthn_2"><h2>WebAuthn</h2><div class="slide-content"><div class="paragraph"><p>La clé publique n&#8217;est pas secrète, car elle est inutile sans sa clé privée.</p></div>
+<div class="paragraph"><p>Le fait que le serveur ne reçoive pas de secret a une implication forte : les bases de données <strong>ne sont plus attractives pour les hackers</strong>, car les clés publiques ne leur <strong>servent à rien</strong>.</p></div></div></section>
+<section id="_inscription_2"><h2>Inscription</h2><div class="slide-content"><div class="imageblock"><img src="images/webauthn-register.png" alt="webauthn register" width="50%"></div></div></section>
+<section id="_login_2"><h2>Login</h2><div class="slide-content"><div class="imageblock"><img src="images/webauthn-login.png" alt="webauthn login" width="45%"></div></div></section>
+<section id="_démo"><h2>Démo</h2><div class="slide-content"><div class="paragraph"><p><a href="https://webauthn.io/" class="bare">https://webauthn.io/</a></p></div></div></section>
+<section id="_origine_du_mal"><h2>Origine du mal</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-none hljs" data-noescape="true">Date: 31/10/2022 9:42:9
+MachineID: eb14ba62-28e9-42ca-9f77-c32512fab1dd
+GUID: {d4a2f0c1-53b4-11ed-b9a6-806e6f6e6963}
+HWID: 9ca12314c88b2768236643-eb14ba62-28e9-42ca-9f77-b9a6-806e6f6e6963
+
+Path: C:\Program Files (x86)\Common Files\comp.exe
+Work Dir: In memory
+
+Computer Name: NICOFIXE
+
+Local Time: 31/10/2022 9:42:9
+TimeZone: UTC1
+[Hardware]
+Processor: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
+CPU Count: 8
+RAM: 16339 MB
+VideoCard: NVIDIA GeForce RTX 3070
+[Processes]
+- System [4]
+- Registry [124]
+- smss.exe [460]
+- csrss.exe [628]
+- wininit.exe [720]
+- csrss.exe [728]
+- services.exe [792]
+
+[Software]
+...
+Heaven Benchmark version 4.0 [4.0]
+...</code></pre></div></div></div></section>
+<section id="_délai"><h2>Délai</h2><div class="slide-content"><div class="paragraph"><p>31/10 &#8594; 10/11</p></div>
+<div class="paragraph"><p>11 jours</p></div></div></section>
+<section id="_analyses"><h2>Analyses</h2><div class="slide-content"><div class="paragraph"><p><a href="https://hybrid-analysis.com" class="bare">https://hybrid-analysis.com</a></p></div>
+<div class="imageblock"><img src="images/ha-malicious.png" alt="ha malicious"></div></div></section>
+<section id="_analyses_2"><div class="slide-content"><div class="imageblock"><img src="images/ha3.png" alt="ha3"></div></div></section>
+<section id="_analyses_3"><div class="slide-content"><div class="imageblock"><img src="images/ha4.png" alt="ha4"></div></div></section>
+<section id="_analyses_4"><div class="slide-content"><div class="imageblock"><img src="images/ha-parent.png" alt="ha parent"></div></div></section>
+<section id="_comment_2"><h2>Comment ?</h2><div class="slide-content"><div class="imageblock"><img src="images/chrome.png" alt="chrome" width="75%"></div></div></section>
+<section id="_comment_3"><h2>Comment ?</h2><div class="slide-content"><div class="paragraph"><p><a href="https://borncity.com/win/2022/06/12/chrome-speichert-passwrter-im-speicher-im-klartext/">Chrome stores passwords in memory, in plain text</a></p></div>
+<div class="paragraph"><p><a href="https://fractionalciso.com/browser-password-managers-flawed-security-by-design/">Browser password managers, flawed security, by design!</a></p></div>
+<div class="paragraph"><p>"
+<em>Even though Chrome, Firefox, and Edge browsers store passwords in encrypted databases, all three intentionally leave encryption keys completely unprotected in predictable locations.</em>
+"</p></div></div></section>
+<section id="_merci"><h2>Merci</h2><div class="slide-content"><div class="paragraph"><p><span class="image"><img src="images/profile-pic.png" alt="profile pic" width="20%"></span> 😘 <span class="image"><img src="images/itsec-happy.png" alt="itsec happy" width="20%"></span> + <span class="image"><img src="images/nvidia.png" alt="nvidia" width="25%"></span></p></div></div></section>
+<section id="_questions" data-background-image="images/ravingquestion.jpg" data-background-size="cover"><div class="slide-content">
+<div class="imageblock"><img src="images/qrcode.png" alt="qrcode" width="35%"></div>
+<div class="paragraph"><p><a href="https://ncomet.github.io/mavie-darkweb">ncomet.<span class="icon"><i class="fa fa-github"></i></span>.io/mavie-darkweb</a></p></div></div></section></div></div><script src="node_modules/reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;
