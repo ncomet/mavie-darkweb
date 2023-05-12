@@ -41,12 +41,6 @@ image::shareplay.jpg[width=85%]
 
 image:remote-play.jpg[width=30%]
 
-== L'histoire
-
-Veille d'un weekend de pont, 10/11/22...
-
-19h17...
-
 [.columns, transition=none]
 == Les personnages
 
@@ -88,6 +82,12 @@ image:itsec.png[width=40%]
 
 Chef sécurité @Ubisoft MTL
 --
+
+== L'histoire
+
+Veille d'un weekend de pont, 10/11/22...
+
+🕖 19h17... 
 
 [%notitle, state=screens, transition=fade]
 == Screens
@@ -159,7 +159,7 @@ image::teams13.png[]
 
 * ~450 noms de domaines
 * Les mots de passes associés, _en clair_
-** 2 pros (AD beaucoup répétés)
+** 2 pros (AD beaucoup répété)
 ** le reste perso
 
 == Don't panic
@@ -233,7 +233,7 @@ Hachage (_hashing_, _hash_)
 --
 Fonction `f`
 
-* Déterministe (surjective)
+* Déterministe
 * `|x|` variable -> `|f(x)|` fixe & connue
 * Ne peut pas être inversée `f(x)` -> `x` ?
 * "facile" à calculer
@@ -263,11 +263,11 @@ image::hashing-trust.svg[]
 
 == Résistance
 
-préimage: `h connu, ∃m / f(m)=h` 
+préimage: `Soit h, ∃m | f(m)=h` 
 
-2nde préimage: `m connu, ∃m' / f(m)=f(m')` 
+2nde préimage: `Soit m, ∃m' | f(m)=f(m')=h` 
 
-m-collisions: `∃m1,m2,m3 / f(m1)=f(m2)=f(m3)`
+m-collisions: `∃m1,m2,m3 | f(m1)=f(m2)=f(m3)`
 
 == Confiance
 
@@ -310,6 +310,17 @@ image::hashcat.png[background, size=cover]
 == Confiance
 
 image::hashcat2.gif[background, size=cover]
+
+== Salage
+
+`f(sel + mot de passe) = hash`
+
+* sel <- 🔒(DB)
+* mot de passe saisi par l'utilisateur
+
+Eviter que deux mdps ne conduisent au même hash
+
+Analyse fréquentielle, rainbow tables, dictionnaires, brute force
 
 [%notitle]
 == Statistiques
