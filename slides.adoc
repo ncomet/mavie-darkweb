@@ -193,10 +193,14 @@ image::ubisoft-logo.png[]
 
 image::teams16.jpeg[]
 
-[%notitle]
-== Course
+== La course
 
-image::sweat.gif[width=80%]
+* Expliquer 🤌 🤦🏽‍♀️ (🫥👩🏽‍🍼)
+* 12h changement/migration
+* Prises de tête
+
+[%step]
+image::sweat.gif[width=60%]
 
 [.columns.is-vcentered]
 == Comment ?
