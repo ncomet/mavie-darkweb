@@ -419,7 +419,7 @@ image::fidoboard.png[width=50%]
 
 `WebAuthn` (Web Authentication API)
 
-* Spécification écrite par le W3C & FIDO
+Spécification écrite par le W3C & FIDO
 
 Google, Mozilla, Microsoft, Yubico, et d'autres.
 
