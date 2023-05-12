@@ -523,6 +523,26 @@ image::ha4.png[]
 
 image::ha-parent.png[]
 
+== "It was at this moment..."
+
+image::facepalm.gif[width=100%]
+
+[.columns]
+== Les gestes qui sauvent part.2
+
+[.column]
+====
+* N'exécutez pas des fichiers non sourcés ou d'origine non connue => `MD5`, checksum !
+* Faites toutes vos mises à jour, _rapidement_
+====
+
+[.column]
+--
+image::updates.png[]
+
+image::updates-win.png[]
+--
+
 == Comment ?
 
 image::chrome.png[width=75%]
