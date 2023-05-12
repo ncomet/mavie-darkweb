@@ -368,7 +368,7 @@ MultiFactor Authentication (2FA) - OTP (One Time Password)
 [%step]
 * Services importants (e-mails, travail, banque)
 [%step]
-* Apps smartphone/clés physiques (pas sms!)
+* Apps smartphone/clés physiques (pas SMS!)
 [%step]
 * Tokens de récupération
 
