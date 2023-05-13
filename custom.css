@@ -12,6 +12,31 @@
     text-transform: none;
 }
 
+@keyframes skew-x-shakeng {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}
+
+section[data-state="glitch"] h2 {
+    animation: skew-x-shakeng 0.20s infinite;
+}
+
+section[data-state="panic"] h2 {
+    animation: horizontal-shaking 0.20s infinite;
+}
+
 .reveal pre code {
     max-height: 580px;
 }
