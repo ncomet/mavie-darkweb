@@ -166,10 +166,12 @@ image::teams13.png[]
 
 image::this-is-fine.jpeg[]
 
+[state=glitch]
 == D0n'7 p4n1c
 
 image::this-si-enif.jpeg[]
 
+[state=panic]
 == Panic...
 
 image::this-is-not-fine.png[]
@@ -289,9 +291,16 @@ m-collisions: `∃m1,m2,m3 | f(m1)=f(m2)=f(m3)`
 
 [.column]
 --
-2017
+[cols="1,1"]
+|===
+|2017|2023 
 
-*40 milliards* MD5 hashes/sec
+|Titan X
+|RTX 4090
+
+|10 milliards MD5 H/s
+|164 milliards MD5 H/s
+|===
 --
 
 [.column]
