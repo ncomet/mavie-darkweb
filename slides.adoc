@@ -4,7 +4,7 @@
 :revealjs_theme: white
 :revealjs_history: true
 :revealjs_slideNumber: true
-:revealjs_totalTime: 3600
+:revealjs_totalTime: 2700
 :customcss: custom.css
 :icons: font
 :title-slide-transition: zoom
@@ -197,7 +197,7 @@ image::teams16.jpeg[]
 
 == La course
 
-* Expliquer 🤌 🤦🏽‍♀️ (🫥👩🏽‍🍼)
+* Expliquer 😢🤦🏽‍♀️ (🍼🤱)
 * 12h changement/migration
 * Prises de tête
 
