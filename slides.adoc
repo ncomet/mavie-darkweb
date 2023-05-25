@@ -286,8 +286,21 @@ m-collisions: `∃m1,m2,m3 | f(m1)=f(m2)=f(m3)`
 |SHA-2, SHA-3, BLAKE2, Keccak-256...
 |===
 
+[%notitle]
+== Hashcat
+
+image::hashcat.png[background, size=cover]
+
+== `./hashcat`
+
+Modes
+
+* `-a 0` attaque par dictionnaire
+* `-a 1` concaténation plusieurs mots
+* `-a 3` brute force (masques)
+
 [%notitle.columns.is-vcentered]
-== Confiance
+== Benchmarks
 
 [.column]
 --
@@ -309,11 +322,6 @@ image::titanx.png[width=80%]
 
 Crédit: https://youtu.be/7U-RbOKanYs[Computerphile]
 --
-
-[%notitle]
-== Confiance
-
-image::hashcat.png[background, size=cover]
 
 [%notitle]
 == Confiance
