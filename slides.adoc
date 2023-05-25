@@ -339,11 +339,6 @@ Eviter que deux mdps ne conduisent au même hash
 
 Analyse fréquentielle, rainbow tables, dictionnaires, brute force
 
-[%notitle]
-== Statistiques
-
-image::passwords.png[]
-
 == Complexité
 
 * Au moins 3 de ces 4 règles de complexité :
@@ -354,6 +349,11 @@ image::passwords.png[]
 * pas plus de 2 caractères identiques d'affilée
 
 source : https://owasp.deteact.com/cheat/cheatsheets/Authentication_Cheat_Sheet.html#password-complexity[OWASP]
+
+[%notitle]
+== Statistiques
+
+image::passwords.png[]
 
 == Vigilant
 
