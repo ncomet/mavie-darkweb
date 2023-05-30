@@ -208,7 +208,7 @@ image::sweat.gif[width=60%]
 == Comment ?
 
 [.column]
-image::nvidia.png[width=50%]
+image::partenaire_main.png[width=50%]
 
 [.column]
 --------------->
@@ -597,7 +597,7 @@ _Even though Chrome, Firefox, and Edge browsers store passwords in encrypted dat
 
 == Merci
 
-image:profile-pic.png[width=20%] 😘 image:itsec-happy.png[width=20%] + image:nvidia.png[width=25%]
+image:profile-pic.png[width=20%] 😘 image:itsec-happy.png[width=20%] + image:partenaire_main.png[width=25%]
 
 [%notitle]
 == Questions ?
