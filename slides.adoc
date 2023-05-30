@@ -459,7 +459,7 @@ image::fidoboard.png[width=50%]
 
 Spécification écrite par le W3C & FIDO
 
-Google, Mozilla, Microsoft, Yubico, et d'autres.
+Google, Mozilla, Microsoft, Yubico...
 
 == Clés publiques
 
