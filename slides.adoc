@@ -10,7 +10,7 @@
 :title-slide-transition: zoom
 :title-slide-background-image: watchdog.jpg
 // nsl.jpg, waxconf.png
-:conf: nsl.jpg
+:conf: waxconf.png
 
 image:{conf}[]
 
@@ -382,6 +382,12 @@ image::password_strength.png[background, size=contain]
 == Surface d'attaque
 
 WARNING: Ne jamais réutiliser un mot de passe, ou une variation d'un mot de passe
+
+== Have I been Pwned?
+
+https://haveibeenpwned.com
+
+image::pwned.png[]
 
 == Gestionnaire de mots de passe
 
