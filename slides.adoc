@@ -9,37 +9,24 @@
 :icons: font
 :title-slide-transition: zoom
 :title-slide-background-image: watchdog.jpg
-// nsl.jpg, waxconf.png
-:conf: waxconf.png
+// nsl.jpg, waxconf.png, devoxx.png
+:conf: devoxx.png
 
-image:{conf}[]
+image:{conf}[width=60%]
 
-== Qui je suis ?
+[.columns.is-vcentered]
+== Qui je suis
 
-icon:twitter[] @NicolasComet +
+[.column]
+image:avatar.jpg[]
+
+[.column.is-two-thirds]
+Senior Staff Software Engineer +
+image:betclic.png[width=70%] +
+🥽🧪 Experience Lab +
+https://twitter.com/NicolasComet[icon:twitter[]@NicolasComet] +
 https://github.com/ncomet[icon:github[].com/ncomet] +
-
----
-
-image:ubisoft.jpg[] +
-☁️🎮  *Streaming Team*  ☁️🎮
-
-== Remote Events
-
-🖥️ -> icon:pen-nib[] 📰
-
-image::remote-events.png[]
-
-[%notitle]
-== Share Play
-
-image::shareplay.jpg[width=85%]
-
-== Remote Play
-
-🖥️ -> 🎮📱
-
-image:remote-play.jpg[width=30%]
+https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
 
 [.columns, transition=none]
 == Les personnages
@@ -71,7 +58,7 @@ Chef sécurité @World Company
 
 image:profile-pic.png[width=40%]
 
-Senior Cloud Engineer @Ubisoft BDX
+Senior Cloud Engineer @VideoGame Comp
 --
 
 [.column]
@@ -80,7 +67,7 @@ Senior Cloud Engineer @Ubisoft BDX
 
 image:itsec.png[width=40%]
 
-Chef sécurité @Ubisoft MTL
+Chef sécurité @VideoGame Comp MTL
 --
 
 == L'histoire
@@ -185,8 +172,6 @@ image::teams15.jpeg[]
 
 == Ce que j'ai fait
 
-image::ubisoft-logo.png[]
-
 1. Rotation AD
 2. Rotation Service Account
 
@@ -214,7 +199,7 @@ image::partenaire_main.png[width=50%]
 --------------->
 
 [.column]
-CTI Team image:ubisoft-logo.png[width=70%]
+CTI Team
 
 == Les gestes qui sauvent
 
@@ -599,10 +584,7 @@ _Even though Chrome, Firefox, and Edge browsers store passwords in encrypted dat
 
 image:profile-pic.png[width=20%] 😘 image:itsec-happy.png[width=20%] + image:partenaire_main.png[width=25%]
 
-[%notitle]
 == Questions ?
-
-image::ravingquestion.jpg[background, size=cover]
 
 image::qrcode.png[width=35%]
 

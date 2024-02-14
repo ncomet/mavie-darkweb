@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "slides for conference <Ma vie sur le Dark Web ?!>",
   "dependencies": {
-    "@asciidoctor/reveal.js": "^5.0.0-rc.1",
+    "@asciidoctor/reveal.js": "^5.1.0",
     "npm-watch": "^0.11.0"
   },
   "watch": {
