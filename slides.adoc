@@ -605,7 +605,7 @@ image:qrcode.png[width=80%]
 [.column.is-two-thirds]
 *Nicolas Comet* +
 Senior Staff Software Engineer +
-image:betclic.png[width=70%] +
+image:betclic.png[width=55%] +
 🥽🧪 Experience Lab +
 icon:envelope[] nicolas.comet@gmail.com +
 https://twitter.com/NicolasComet[icon:twitter[]@NicolasComet] +
