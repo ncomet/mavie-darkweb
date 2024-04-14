@@ -1,5 +1,17 @@
 @import url('https://fonts.cdnfonts.com/css/anonymous-clippings');
 
+
+.footer {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    background-image: url('./images/logo-texte-devoxx-france-400.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 49px;
+    width: 400px;
+}    
+
 .line-through{text-decoration:line-through}
 
 .reveal h1 {
