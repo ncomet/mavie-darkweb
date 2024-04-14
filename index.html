@@ -414,14 +414,7 @@ ul.byline li + li {
   margin-top: 0.25em;
 }
 </style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/v4-shims.min.css"><link rel="stylesheet" href="custom.css"></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title" data-transition="zoom" data-background-image="images/watchdog.jpg"><h1>Ma vie en vente flash sur le Dark Web ?!</h1><div class="preamble"><div class="paragraph"><p><span class="image"><img src="images/devoxx.png" alt="devoxx" width="60%"></span></p></div></div></section>
-<section id="_qui_je_suis" class="columns is-vcentered"><h2>Qui je suis</h2><div class="slide-content"><div class="paragraph column"><p><span class="image"><img src="images/avatar.jpg" alt="avatar"></span></p></div>
-<div class="paragraph column is-two-thirds"><p>Senior Staff Software Engineer<br>
-<span class="image"><img src="images/betclic.png" alt="betclic" width="70%"></span><br>
-🥽🧪 Experience Lab<br>
-<a href="https://twitter.com/NicolasComet"><span class="icon"><i class="fa fa-twitter"></i></span>@NicolasComet</a><br>
-<a href="https://github.com/ncomet"><span class="icon"><i class="fa fa-github"></i></span>.com/ncomet</a><br>
-<a href="https://www.linkedin.com/in/nicolascomet"><span class="icon"><i class="fa fa-linkedin"></i></span>.com/nicolascomet</a><br></p></div></div></section>
-<section id="_les_personnages" class="columns" data-transition="none"><h2>Les personnages</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="paragraph"><p><strong>Piedrük</strong></p></div>
+<section id="_les_personnages" class="columns" data-transition="none"><h2>Les personnages</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="paragraph"><p><strong>Georges</strong></p></div>
 <div class="paragraph"><p><span class="image"><img src="images/piedruk.png" alt="piedruk" width="40%"></span></p></div>
 <div class="paragraph"><p>Señor Clown Engineer @World Company</p></div></div></div>
 <div class="openblock column"><div class="content"><div class="paragraph"><p><strong>BigBro1984</strong></p></div>
@@ -470,14 +463,20 @@ ul.byline li + li {
 <section id="_inscription"><h2>Inscription</h2><div class="slide-content"><div class="imageblock"><img src="images/hashing-diagram.svg" alt="hashing diagram"></div></div></section>
 <section id="_login" data-transition="none"><h2>Login</h2><div class="slide-content"><div class="imageblock"><img src="images/hashing-login.svg" alt="hashing login"></div></div></section>
 <section id="_confiance" data-transition="none"><h2>Confiance</h2><div class="slide-content"><div class="imageblock"><img src="images/hashing-trust.svg" alt="hashing trust"></div></div></section>
-<section id="_résistance"><h2>Résistance</h2><div class="slide-content"><div class="paragraph"><p>préimage: <code>Soit h, ∃m | f(m)=h</code></p></div>
-<div class="paragraph"><p>2nde préimage: <code>Soit m, ∃m' | f(m)=f(m')=h</code></p></div>
-<div class="paragraph"><p>m-collisions: <code>∃m1,m2,m3 | f(m1)=f(m2)=f(m3)</code></p></div></div></section>
+<section id="_résistance"><h2>Résistance</h2><div class="slide-content"><div class="paragraph"><p><em>préimage</em><br>
+<code>Soit h</code><br>
+<code>∃m | f(m)=h</code></p></div>
+<div class="paragraph"><p><em>2<sup>de</sup> préimage</em><br>
+<code>Soit m, h</code><br>
+<code>∃m' | f(m)=f(m')=h</code></p></div>
+<div class="paragraph"><p><em>m-collisions</em><br>
+<code>∃m1,m2,m3</code><br>
+<code>f(m1)=f(m2)=f(m3)</code></p></div></div></section>
 <section id="_confiance_2"><h2>Confiance</h2><div class="slide-content"><table class="tableblock frame-all grid-all" style="width:100%"><colgroup><col style="width:50%"><col style="width:50%"></colgroup><thead><tr><th class="tableblock halign-left valign-top">Cassés</th><th class="tableblock halign-left valign-top">Sûrs</th></tr><tbody><tr><td class="tableblock halign-left valign-top"><p class="tableblock">MD5</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-256</p></td></tr><tr><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-1</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-512</p></td></tr><tr><td class="tableblock halign-left valign-top"></td><td class="tableblock halign-left valign-top"><p class="tableblock">SHA-2, SHA-3, BLAKE2, Keccak-256&#8230;&#8203;</p></td></tr></table></div></section>
 <section id="_hashcat" data-background-image="images/hashcat.png" data-background-size="cover"></section>
 <section id="_hashcat_2"><h2><code>./hashcat</code></h2><div class="slide-content"><div class="paragraph"><p>Modes</p></div>
 <div class="ulist"><ul><li><p><code>-a 0</code> attaque par dictionnaire</p></li><li><p><code>-a 1</code> concaténation plusieurs mots</p></li><li><p><code>-a 3</code> brute force (masques)</p></li></ul></div></div></section>
-<section id="_benchmarks" class="columns is-vcentered"><div class="slide-content"><div class="openblock column"><div class="content"><table class="tableblock frame-all grid-all" style="width:100%"><colgroup><col style="width:50%"><col style="width:50%"></colgroup><thead><tr><th class="tableblock halign-left valign-top">2017</th><th class="tableblock halign-left valign-top">2023</th></tr><tbody><tr><td class="tableblock halign-left valign-top"><p class="tableblock">Titan X</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">RTX 4090</p></td></tr><tr><td class="tableblock halign-left valign-top"><p class="tableblock">10 milliards MD5 H/s</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">164 milliards MD5 H/s</p></td></tr></table></div></div>
+<section id="_benchmarks" class="columns is-vcentered"><div class="slide-content"><div class="openblock column"><div class="content"><table class="tableblock frame-all grid-all" style="width:100%"><colgroup><col style="width:50%"><col style="width:50%"></colgroup><thead><tr><th class="tableblock halign-left valign-top">2017</th><th class="tableblock halign-left valign-top">2024</th></tr><tbody><tr><td class="tableblock halign-left valign-top"><p class="tableblock">Titan X</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">RTX 4090</p></td></tr><tr><td class="tableblock halign-left valign-top"><p class="tableblock">10 milliards MD5 H/s</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">164 milliards MD5 H/s</p></td></tr></table></div></div>
 <div class="openblock column"><div class="content"><div class="imageblock"><img src="images/titanx.png" alt="titanx" width="80%"></div>
 <div class="paragraph"><p>Crédit: <a href="https://youtu.be/7U-RbOKanYs">Computerphile</a></p></div></div></div></div></section>
 <section id="_confiance_3" data-background-image="images/hashcat2.gif" data-background-size="cover"></section>
@@ -529,7 +528,9 @@ ul.byline li + li {
 <div class="paragraph"><p>Le fait que le serveur ne reçoive pas de secret a une implication forte : les bases de données <strong>ne sont plus attractives pour les hackers</strong>, car les clés publiques ne leur <strong>servent à rien</strong>.</p></div></div></section>
 <section id="_inscription_2"><h2>Inscription</h2><div class="slide-content"><div class="imageblock"><img src="images/webauthn-register.png" alt="webauthn register" width="50%"></div></div></section>
 <section id="_login_2"><h2>Login</h2><div class="slide-content"><div class="imageblock"><img src="images/webauthn-login.png" alt="webauthn login" width="45%"></div></div></section>
-<section id="_démo"><h2>Démo</h2><div class="slide-content"><div class="paragraph"><p><a href="https://webauthn.io/" class="bare">https://webauthn.io/</a></p></div></div></section>
+<section id="_démo"><h2>Démo</h2><div class="slide-content"><div class="paragraph"><p><a href="https://webauthn.io" target="_blank">https://webauthn.io</a></p></div></div></section>
+<section id="_learn_more"><h2>Learn more</h2><div class="slide-content"><div class="paragraph"><p><strong>🕝 14h35 📍Neuilly 153</strong></p></div>
+<div class="imageblock"><img src="images/webauthn_devoxx2014.jpg" alt="webauthn devoxx2014"></div></div></section>
 <section id="_origine_du_mal"><h2>Origine du mal</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-none hljs" data-noescape="true">Date: 31/10/2022 9:42:9
 MachineID: eb14ba62-28e9-42ca-9f77-c32512fab1dd
 GUID: {d4a2f0c1-53b4-11ed-b9a6-806e6f6e6963}
@@ -578,8 +579,15 @@ Heaven Benchmark version 4.0 [4.0]
 <em>Even though Chrome, Firefox, and Edge browsers store passwords in encrypted databases, all three intentionally leave encryption keys completely unprotected in predictable locations.</em>
 "</p></div></div></section>
 <section id="_merci"><h2>Merci</h2><div class="slide-content"><div class="paragraph"><p><span class="image"><img src="images/profile-pic.png" alt="profile pic" width="20%"></span> 😘 <span class="image"><img src="images/itsec-happy.png" alt="itsec happy" width="20%"></span> + <span class="image"><img src="images/partenaire_main.png" alt="partenaire main" width="25%"></span></p></div></div></section>
-<section id="_questions"><h2>Questions ?</h2><div class="slide-content"><div class="imageblock"><img src="images/qrcode.png" alt="qrcode" width="35%"></div>
-<div class="paragraph"><p><a href="https://ncomet.github.io/mavie-darkweb">ncomet.<span class="icon"><i class="fa fa-github"></i></span>.io/mavie-darkweb</a></p></div></div></section></div></div><script src="node_modules/reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<section id="_questions" class="columns is-vcentered"><h2>Questions ?</h2><div class="slide-content"><div class="paragraph column"><p><span class="image"><img src="images/avatar.jpg" alt="avatar" width="80%"></span><br>
+<span class="image"><img src="images/qrcode.png" alt="qrcode" width="80%"></span></p></div>
+<div class="paragraph column is-two-thirds"><p><strong>Nicolas Comet</strong><br>
+Senior Staff Software Engineer<br>
+<span class="image"><img src="images/betclic.png" alt="betclic" width="70%"></span><br>
+🥽🧪 Experience Lab<br>
+<a href="https://twitter.com/NicolasComet"><span class="icon"><i class="fa fa-twitter"></i></span>@NicolasComet</a><br>
+<a href="https://github.com/ncomet"><span class="icon"><i class="fa fa-github"></i></span>.com/ncomet</a><br>
+<a href="https://www.linkedin.com/in/nicolascomet"><span class="icon"><i class="fa fa-linkedin"></i></span>.com/nicolascomet</a><br></p></div></div></section></div></div><script src="node_modules/reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;
