@@ -14,26 +14,12 @@
 
 image:{conf}[width=60%]
 
-[.columns.is-vcentered]
-== Qui je suis
-
-[.column]
-image:avatar.jpg[]
-
-[.column.is-two-thirds]
-Senior Staff Software Engineer +
-image:betclic.png[width=70%] +
-🥽🧪 Experience Lab +
-https://twitter.com/NicolasComet[icon:twitter[]@NicolasComet] +
-https://github.com/ncomet[icon:github[].com/ncomet] +
-https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
-
 [.columns, transition=none]
 == Les personnages
 
 [.column]
 --
-*Piedrük*
+*Georges*
 
 image:piedruk.png[width=40%]
 
@@ -250,11 +236,17 @@ image::hashing-trust.svg[]
 
 == Résistance
 
-préimage: `Soit h, ∃m | f(m)=h` 
+_préimage_ +
+`Soit h` +
+`∃m | f(m)=h` 
 
-2nde préimage: `Soit m, ∃m' | f(m)=f(m')=h` 
+_2^de^ préimage_ +
+`Soit m, h` +
+`∃m' | f(m)=f(m')=h` 
 
-m-collisions: `∃m1,m2,m3 | f(m1)=f(m2)=f(m3)`
+_m-collisions_ +
+`∃m1,m2,m3` +
+`f(m1)=f(m2)=f(m3)`
 
 == Confiance
 
@@ -291,7 +283,7 @@ Modes
 --
 [cols="1,1"]
 |===
-|2017|2023 
+|2017|2024
 
 |Titan X
 |RTX 4090
@@ -481,7 +473,13 @@ image::webauthn-login.png[width=45%]
 
 == Démo
 
-https://webauthn.io/
+https://webauthn.io[https://webauthn.io,window=_blank]
+
+== Learn more
+
+*🕝 14h35 📍Neuilly 153*
+
+image::webauthn_devoxx2014.jpg[]
 
 == Origine du mal
 
@@ -584,8 +582,18 @@ _Even though Chrome, Firefox, and Edge browsers store passwords in encrypted dat
 
 image:profile-pic.png[width=20%] 😘 image:itsec-happy.png[width=20%] + image:partenaire_main.png[width=25%]
 
+[.columns.is-vcentered]
 == Questions ?
 
-image::qrcode.png[width=35%]
+[.column]
+image:avatar.jpg[width=80%] +
+image:qrcode.png[width=80%]
 
-https://ncomet.github.io/mavie-darkweb[ncomet.icon:github[].io/mavie-darkweb]
+[.column.is-two-thirds]
+*Nicolas Comet* +
+Senior Staff Software Engineer +
+image:betclic.png[width=70%] +
+🥽🧪 Experience Lab +
+https://twitter.com/NicolasComet[icon:twitter[]@NicolasComet] +
+https://github.com/ncomet[icon:github[].com/ncomet] +
+https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
