@@ -24,7 +24,9 @@ revealDiv.appendChild(footer);
 
 } );
 </script>
-<div id="custom-footer" class="footer"></div>
+<div id="custom-footer" class="footer">
+  <img src="images/logo-texte-devoxx-france-400.png"/>
+</div>
 ++++
 
 [.columns, transition=none]
