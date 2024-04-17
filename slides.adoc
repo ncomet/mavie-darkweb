@@ -619,6 +619,6 @@ https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
 
 image::DevoxxFR2024_0005.jpg[background, size=cover]
 
-image::talk-voxxrin.png[width=40%]
+image::talk-voxxrin.jpg[width=50%]
 
 image::vote-devoxxfr-2024.png[width=40%]
