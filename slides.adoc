@@ -613,3 +613,7 @@ icon:envelope[] nicolas.comet@gmail.com +
 https://twitter.com/NicolasComet[icon:twitter[]@NicolasComet] +
 https://github.com/ncomet[icon:github[].com/ncomet] +
 https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
+
+== Votez 🙏
+
+image::vote-devoxxfr-2024.png[width=60%]
