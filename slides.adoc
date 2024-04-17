@@ -616,4 +616,6 @@ https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
 
 == Votez 🙏
 
-image::vote-devoxxfr-2024.png[width=60%]
+image::talk-voxxrin.png[width=40%]
+
+image::vote-devoxxfr-2024.png[width=40%]
