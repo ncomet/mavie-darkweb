@@ -614,7 +614,10 @@ https://twitter.com/NicolasComet[icon:twitter[]@NicolasComet] +
 https://github.com/ncomet[icon:github[].com/ncomet] +
 https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
 
+[%notitle]
 == Votez 🙏
+
+image::DevoxxFR2024_0005.jpg[background, size=cover]
 
 image::talk-voxxrin.png[width=40%]
 
