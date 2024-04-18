@@ -435,6 +435,22 @@ NOTE: Entreprises, soyez raisonnables
 
 On arrêtait les mots de passe ?
 
+[.columns.is-vcentered]
+== Merci !
+
+[.column]
+image:avatar.jpg[width=80%]
+
+[.column.is-two-thirds]
+*Nicolas Comet* +
+Senior Staff Software Engineer +
+image:betclic.png[width=55%] +
+🥽🧪 Experience Lab +
+icon:envelope[] nicolas.comet@gmail.com +
+https://twitter.com/NicolasComet[icon:twitter[]@NicolasComet] +
+https://github.com/ncomet[icon:github[].com/ncomet] +
+https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
+
 == FIDO
 
 **F**ast **ID**entity **O**nline 
