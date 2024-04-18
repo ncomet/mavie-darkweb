@@ -34,7 +34,7 @@ revealDiv.appendChild(footer);
 
 [.column]
 --
-*Georges*
+*Georges A.*
 
 image:piedruk.png[width=40%]
 
@@ -43,7 +43,7 @@ Señor Clown Engineer @World Company
 
 [.column]
 --
-*BigBro1984*
+*ITSec*
 
 image:itsec-happy.png[width=40%]
 
