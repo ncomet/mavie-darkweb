@@ -10,7 +10,7 @@
 :title-slide-transition: zoom
 :title-slide-background-image: watchdog.jpg
 // nsl.jpg, waxconf.png, devoxx.png
-:conf: devoxx.png
+:conf: betclic.png
 
 image:{conf}[width=60%]
 
@@ -25,7 +25,7 @@ revealDiv.appendChild(footer);
 } );
 </script>
 <div id="custom-footer" class="footer">
-  <img src="images/logo-texte-devoxx-france-400.png"/>
+  <img src="images/betclic.png"/>
 </div>
 ++++
 
@@ -235,6 +235,7 @@ image::hashing.png[width=75%]
 
 image::hashing-illustration.png[width=50%]
 
+[transition=none]
 == Inscription
 
 image::hashing-diagram.svg[]
@@ -506,12 +507,6 @@ image::webauthn-login.png[width=45%]
 
 https://webauthn.io[https://webauthn.io,window=_blank]
 
-== Learn more
-
-*🕝 14h35 📍Neuilly 153*
-
-image::webauthn_devoxx2014.jpg[]
-
 == Origine du mal
 
 [source]
@@ -548,12 +543,6 @@ Heaven Benchmark version 4.0 [4.0]
 ...
 ----
 
-== Délai
-
-31/10 -> 10/11
-
-11 jours
-
 == Analyses
 
 https://hybrid-analysis.com
@@ -578,6 +567,12 @@ image::ha-parent.png[]
 == "It was at this moment..."
 
 image::facepalm.gif[width=100%]
+
+== Délai
+
+31/10 -> 10/11
+
+11 jours
 
 [.columns]
 == Les gestes qui sauvent part.2
@@ -635,6 +630,4 @@ https://www.linkedin.com/in/nicolascomet[icon:linkedin[].com/nicolascomet] +
 
 image::DevoxxFR2024_0005.jpg[background, size=cover]
 
-image::talk-voxxrin.jpg[width=50%]
-
-image::vote-devoxxfr-2024.png[width=40%]
+image::open_feedback.png[width=50%]
